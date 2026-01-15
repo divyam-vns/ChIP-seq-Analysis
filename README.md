@@ -55,3 +55,10 @@ QC reports
 MACS2 peak files
 DMRs and differential binding CSVs
 Figures for visualization
+```
+
+### Key Features of This ChIP-seq Workflow
+- Full pipeline: raw FASTQ → QC → trimming → alignment → deduplication → peak calling → annotation → visualization
+- Handles narrow peaks (TFs) or broad peaks (histone marks)
+- Supports differential binding analysis between conditions
+- Produces publication-quality figures for IGV or plotting
